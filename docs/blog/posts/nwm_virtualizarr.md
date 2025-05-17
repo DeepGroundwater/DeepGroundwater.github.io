@@ -54,6 +54,7 @@ Since this data reads from the cloud, we'll need to create our paths to s3. Belo
 ```python
 import fsspec
 
+fs = fsspec.filesystem("s3", anon=True)
 file_pattern = f"s3://noaa-nwm-pds/nwm.{date}/{forecast_type}/nwm.{initial_time}.{forecast_type}.{variable}.*.nc"
 noaa_files = fs.glob(file_pattern)
 noaa_files = sorted(["s3://" + f for f in noaa_files])
@@ -102,19 +103,47 @@ virtual_datasets = client.gather(futures)
 
 ### Build your VirtualiZarr store
 
-Now that our virtual datasets are created, let's concatenate the data, and rechunk the output so it's readable by your code.
+Now that our virtual datasets are created, let's create the virtual reference and save the output locally to a kerchunk json file.
 
 ```python
-virtual_ds = xr.combine_nested(
-    virtual_datasets, 
-    coords="minimal", 
-    compat='override', 
-    concat_dim=['time']
-)
-virtual_ds = virtual_ds.chunk({'time':1}, chunked_array_type="cubed")
+virtual_datasets[0].virtualize.to_kerchunk("NWM.json", format="json")
 ```
 
-Tthat's it! You now how a collection of many .nc files in one xarray dataset that can be read into your hydrologic analysis.
+Outputs can be read through thefollowing:
+```python
+import s3fs
+import os
 
-For the full demo, and code package we put together, check out our demo repo at: [DeepGroundwater NWM Batcher](https://github.com/DeepGroundwater/nwm_batcher/blob/master/examples/read_short_range.ipynb)
+os.environ['AWS_REGION'] = 'us-east-1'
+fs = s3fs.S3FileSystem(anon=True, client_kwargs={'region_name': 'us-east-1'})
+storage_options = dict(
+    remote_protocol="s3", remote_options=dict(anon=True)
+)
+ds = xr.open_dataset(
+    "NWM_ACCET.json",
+    engine="kerchunk",
+    backend_kwargs={"storage_options": storage_options},
+)
+ds.ACCET.plot(vmin=-1, vmax=ds.ACCET.max().values)
+```
 
+That's it! You now how a collection of many .nc files in one xarray dataset that can be read into your hydrologic analysis.
+
+For the full demo, and code package we put together, check out our demo repo at: [DeepGroundwater NWM Batcher](https://github.com/DeepGroundwater/nwm_batcher/blob/master/examples/read_short_range.ipynb). With a snippet below:
+
+```python
+virtual_datasets = nwm_batcher.read(
+    date="20250516",
+    forecast_type="short_range",
+    initial_time="t00z",
+    variable="land",
+    data_variable="ACCET",
+    coordinates=["time", "reference_time", "x", "y"]
+)
+```
+
+<p align="center">
+  <img src="https://github.com/DeepGroundwater/DeepGroundwater.github.io/blob/master/docs/blog/posts/pics/nwm_accet.png.png?raw=true" alt="Accumulated Total ET" width="500"/>
+  <br>
+  <em>Figure 1: Plotted Accumlated total ET for CONUS</em>
+</p>
