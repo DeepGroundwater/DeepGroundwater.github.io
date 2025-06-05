@@ -128,7 +128,7 @@ ds.ACCET.plot(vmin=-1, vmax=ds.ACCET.max().values)
 ```
 
 <p align="center">
-  <img src="https://github.com/DeepGroundwater/DeepGroundwater.github.io/blob/master/docs/blog/posts/pics/nwm_accet.png.png?raw=true" alt="Accumulated Total ET" width="500"/>
+  <img src="https://github.com/DeepGroundwater/DeepGroundwater.github.io/blob/master/docs/blog/posts/pics/nwm_accet.png?raw=true" alt="Accumulated Total ET" width="500"/>
   <br>
   <em>Figure 1: Plotted Accumlated total ET for CONUS</em>
 </p>
