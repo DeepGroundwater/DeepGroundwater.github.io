@@ -12,9 +12,9 @@ In Earth Sciences we build all sorts of models for one reason or another. I've r
 
 We can visualize this problem as a 3D coordinate system. On the X-axis, we have how well-defined our task is. On the Y-axis, we have how achievable it is. We might have a Z-axis: Alignment. If the circles of our intention don't overlap, we end up successfully completing a task that fails to solve the actual problem. Let's break every modeling project into three distinct items:
 
-  - Goal: What do you actually want? (The "Why")
-  - Task: What did you ask the model to do? (The "How")
-  - Design: What was the model designed to do? (The "What")
+  - Goal: What do you actually want?
+  - Task: What did you ask the model to do?
+  - Design: What was the model designed to do?
 
 When these three are in direct overlap, you have a useful tool. When they drift apart, you have a "Success-Failure": a model that does exactly what you told it to, while not bringing you any closer to your end goal.
 
@@ -26,7 +26,7 @@ This is an example of an ideal alignment of goal, task and design in modeling. Y
   - Task: Forecast weather 1 hour out.
   - Design: Short-range forecasting.
 
-In this scenario, the definitions are precise and the task is highly achievable. The circles overlap almost perfectly. If the model says "rain," and you grab the umbrella, your goal is met.
+In this scenario, the definitions are precise and the task is highly achievable. The circles overlap almost perfectly. If the model says "rain," and you grab the umbrella, your goal is met. The end goal of bringing an umbrella is relatively small compared to the massive modeling frameworks that go into modern weather forecasting.
 
 <p align="center">
   <img src="https://github.com/DeepGroundwater/DeepGroundwater.github.io/blob/modeltaskdesign/docs/blog/posts/pics/taskumbrella.png?raw=true" alt="Should I bring an umbrella to work" width="500"/>
@@ -54,7 +54,7 @@ This is where things get dangerous. We often set out with a massive, virtuous go
   - Task: Produce 100-yr flood map.
   - Design: Inundation from streamflow.
 
-The Task is extremely well-defined (X-axis) and generally achievable (Y-axis). But the Alignment with the Goal is poor. A 100-year flood map tells you where the water goes in a massive, rare event. It doesn't tell you about the 20-year flood that washes out a low-water crossing, or the flash flood that overwhelms a storm drain.
+The Task is extremely well-defined (X-axis) and generally achievable (Y-axis). But the Alignment with the Goal is poor. A 100-year flood map tells you where the water goes in a massive, rare event. It doesn't tell you about the 20-year flood that washes out a low-water crossing, or the flash flood that overwhelms a storm drain. The end goal of solving flood hazards entirely is much larger than even the most complex models that go into flood prediction.
 
 If we use the map as our sole development strategy, we might "pass" our task by keeping houses out of the 100-year zone, but "fail" our goal because people are still dying in their cars on "safe" roads.
 
@@ -62,9 +62,7 @@ If we use the map as our sole development strategy, we might "pass" our task by 
   <img src="https://github.com/DeepGroundwater/DeepGroundwater.github.io/blob/modeltaskdesign/docs/blog/posts/pics/taskflood.png?raw=true" alt="Let's solve flooding" width="500"/>
 </p>
 
-We should strive for as much overlap as possible between our end goal, model design, and model task. This is extremely hard, however. We should at least be transparent about our task alignment.
-
-We can continue improving our models to give us better "Tasks" (better hydrograph matching), but if our "Goal" is ecosystem health or water equity, we can't assume that a better-fitted line on a graph automatically translates to a better outcome in the real world.
+We should strive for as much overlap as possible between our end goal, model design, and model task. This is extremely hard, however. We should at least be transparent about our task alignment. We can continue improving our models to give us better "Tasks" (better hydrograph matching), but if our "Goal" is ecosystem health or water equity, we can't assume that a better-fitted line on a graph automatically translates to a better outcome in the real world.
 
 I recommend that next time you are working on a model, you think through this alignment excercize.
 
