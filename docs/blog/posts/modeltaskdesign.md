@@ -48,7 +48,7 @@ Here, the Definition is still high, but Achievability starts to drop. Chaotic at
 
 
 ### Example 3: Solving Flooding (The Alignment Trap)
-This is where things get dangerous. We often set out with a massive, virtuous goal, such as eliminate flood hazards. But how do we translate that into a computational task? Sometimes, we produce model, validated the results, then call it a day, even though this won't neccessarily get us closer to our goal.
+This is where things get dangerous. We often set out with a massive, virtuous goal, such as eliminate flood hazards. But how do we translate that into a computational task? Sometimes, we produce a model, validate the results, then call it a day, even though this won't neccessarily get us closer to our goal.
 
   - Goal: Eliminate flood hazards.
   - Task: Produce 100-yr flood map.
@@ -66,5 +66,5 @@ We should strive for as much overlap as possible between our end goal, model des
 
 We can continue improving our models to give us better "Tasks" (better hydrograph matching), but if our "Goal" is ecosystem health or water equity, we can't assume that a better-fitted line on a graph automatically translates to a better outcome in the real world.
 
-I recommend that next time your are working on a model, you think through this alignment excersize.
+I recommend that next time you are working on a model, you think through this alignment excercize.
 
