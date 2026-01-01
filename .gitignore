@@ -4,3 +4,5 @@ _version.py
 *.DS_Store
 *__pycache__
 *.cache
+
+uv.lock

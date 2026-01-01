@@ -14,8 +14,8 @@ authors = [
 ]
 maintainers = [
     {name = "Tadd Bindas", email = "taddbindas@gmail.com"},
-    {name = "Jonathan Frame", email = ""},
-    {name = "Ryoko Araki", email = ""},
+    {name = "Jonathan Frame"},
+    {name = "Ryoko Araki"},
 ]
 dependencies = [
     "pillow",

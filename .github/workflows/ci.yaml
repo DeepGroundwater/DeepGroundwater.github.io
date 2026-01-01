@@ -19,9 +19,6 @@ jobs:
           key: ${{ github.ref }}
           path: .cache
       - run: pip install uv
-      - run: uv venv
-      - run: source .venv/bin/activate
-      - run: uv pip install -e .
-      - run: pip install git+https://taddyb:${{ secrets.GHCR_TOKEN }}@github.com/squidfunk/mkdocs-material-insiders.git
-      - run: mkdocs build
-      - run: mkdocs gh-deploy --force
+      - run: uv sync
+      - run: uv run mkdocs build
+      - run: uv run mkdocs gh-deploy --force
