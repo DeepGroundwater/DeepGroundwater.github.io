@@ -30,7 +30,7 @@ Also no. Physical models assume that flow is un-impeded, all parameters are accu
 NOAA-OWP maintains a system of regional forecasting centers, and gages, across CONUS to provide observations at determined locations, displaying the results through the [water.noaa.gov](water.noaa.gov) web portal. By using observations at key points along large river networks, total flow can be reset, detaching networks and shrinking the game of telephone into smaller pieces. Specific sections of CONUS are covered by the Replace and Route program: [A methodology](https://forecast.weather.gov/glossary.php?word=REP) that ingests the official streamflow forecasts issued by the NWS RFCs at AHPS gauge locations, and utilizes the National Water Model (NWM) routing algorithm to propagate flow downstream. This method is used to delineate the River Forecast Center Flood Inundation Map (RFC FIM). 
 
 <p align="center">
-  <img src="https://github.com/DeepGroundwater/DeepGroundwater.github.io/docs/blog/posts/pics/01_01_26_water.noaa.gov.png?raw=true" alt="https://water.noaa.gov" width="500"/>
+  <img src="https://raw.githubusercontent.com/DeepGroundwater/DeepGroundwater.github.io/refs/heads/fixrouting/docs/blog/posts/pics/01_01_26_water.noaa.gov.web.jpg" alt="https://water.noaa.gov" width="500"/>
 </p>
 
 While this approach removes error, it is costly and requires in-situ infrastucture plus modelers to be monitoring the system. River systems can change, which means errors and biases may have to adjust; causing a change in the location or monitoring strategy for a part of the graph. 
