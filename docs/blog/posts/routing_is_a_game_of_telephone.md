@@ -15,7 +15,7 @@ Almost all of my hydrology career, thus far, has been entangled with scaling and
 
 To put this into simple terms, we're playing one giant game of telephone where the message (flow prediction) at the end of the game may/may not be correct due to a mistake along the way. The extreme case of this is shown in the below episode of Family Guy when our protagonist is asked to get a loaf of bread, a container of milk, and a stick of butter, but comes home with treasure from a fish tank and a [Joe Dirt DVD](https://en.wikipedia.org/wiki/Joe_Dirt). 
 
-![a loaf of bread](https://y.yarn.co/0d6953d3-f9ae-4db8-a915-28ce4aa9ef61_text.gif)
+![a loaf of bread](./pics/a_container_of_bread.gif)
 
 Looking to computer science / information theory literature, the game of telephone is often referred to as temporal error accumulation, small prediction errors compounding over time as each timestep's output becomes the next timestep's input. However, this problem gets worse as for routing models there isn't one chain of information (one river), but often many rivers/tributaries flowing into the same confluence leading to spatial error accumulation. The classic game of telephone has become a __**telethon**__, where nearby river networks are playing many simultaneous telephone games, merging at every confluence, compounding errors in both space and time.
 
