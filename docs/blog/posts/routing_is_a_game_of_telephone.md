@@ -15,7 +15,7 @@ Almost all of my hydrology career, thus far, has been entangled with scaling and
 
 To put this into simple terms, we're playing one giant game of telephone where the message (flow prediction) at the end of the game may/may not be correct due to a mistake along the way. The extreme case of this is shown in the below episode of Family Guy when our protagonist is asked to get a loaf of bread, a container of milk, and a stick of butter, but comes home with treasure from a fish tank and a [Joe Dirt DVD](https://en.wikipedia.org/wiki/Joe_Dirt). 
 
-![a loaf of bread](https://y.yarn.co/0d6953d3-f9ae-4db8-a915-28ce4aa9ef61_text.gif)
+![a loaf of bread](./pics/a_container_of_bread.gif)
 
 Looking to computer science / information theory literature, the game of telephone is often referred to as temporal error accumulation, small prediction errors compounding over time as each timestep's output becomes the next timestep's input. However, this problem gets worse as for routing models there isn't one chain of information (one river), but often many rivers/tributaries flowing into the same confluence leading to spatial error accumulation. The classic game of telephone has become a __**telethon**__, where nearby river networks are playing many simultaneous telephone games, merging at every confluence, compounding errors in both space and time.
 
@@ -30,7 +30,7 @@ Also no. Physical models assume that flow is un-impeded, all parameters are accu
 NOAA-OWP maintains a system of regional forecasting centers, and gages, across CONUS to provide observations at determined locations, displaying the results through the [water.noaa.gov](water.noaa.gov) web portal. By using observations at key points along large river networks, total flow can be reset, detaching networks and shrinking the game of telephone into smaller pieces. Specific sections of CONUS are covered by the Replace and Route program: [A methodology](https://forecast.weather.gov/glossary.php?word=REP) that ingests the official streamflow forecasts issued by the NWS RFCs at AHPS gauge locations, and utilizes the National Water Model (NWM) routing algorithm to propagate flow downstream. This method is used to delineate the River Forecast Center Flood Inundation Map (RFC FIM). 
 
 <p align="center">
-  <img src="https://github.com/DeepGroundwater/DeepGroundwater.github.io/docs/blog/posts/pics/01_01_26_water.noaa.gov.png?raw=true" alt="https://water.noaa.gov" width="500"/>
+  <img src="https://raw.githubusercontent.com/DeepGroundwater/DeepGroundwater.github.io/refs/heads/fixrouting/docs/blog/posts/pics/01_01_26_water.noaa.gov.web.jpg" alt="https://water.noaa.gov" width="500"/>
 </p>
 
 While this approach removes error, it is costly and requires in-situ infrastucture plus modelers to be monitoring the system. River systems can change, which means errors and biases may have to adjust; causing a change in the location or monitoring strategy for a part of the graph. 
