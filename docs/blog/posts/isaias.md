@@ -2,6 +2,9 @@
 date:
   created: 2026-10-09
 authors:
+  - sbattula
+  - ksarna
+  - svyas
   - jmframe
 slug: isaias-streamflow-forecast
 ---
@@ -14,11 +17,15 @@ Our earlier work examined Hurricane Helene retrospectively (Battula et al., 2026
 
 <!-- more -->
 
-![Hurricane Isaias forecast track and key messages in the supplied National Hurricane Center advisory](pics/aliais/isaias_track.png)
+<p align="center">
+  <img src="/blog/pics/aliais/isaias_track.png" alt="Hurricane Isaias forecast track and key messages in the supplied National Hurricane Center advisory" style="width: 100%; max-width: 1100px; height: auto;" />
+</p>
 
 *Hurricane Isaias track and key messages from the supplied [NOAA National Hurricane Center](https://www.nhc.noaa.gov/) graphic, labeled Advisory 13, October 9, 2026, 4:00 p.m. CDT. This is a snapshot of the advisory available for this post.*
 
-![Alabama map showing the 12 USGS gauges, their upstream drainage basins, HUC8 subbasin boundaries, and river networks](pics/aliais/map.jpg)
+<p align="center">
+  <img src="/blog/pics/aliais/map.jpg" alt="Alabama map showing the 12 USGS gauges, their upstream drainage basins, HUC8 subbasin boundaries, and river networks" style="width: 100%; max-width: 1100px; height: auto;" />
+</p>
 
 *The 12 forecast locations and their upstream watersheds. Basin and river layers come from USGS hydrologic datasets; the Alabama outline comes from the U.S. Census Bureau. Numbers match the forecast panels below.*
 
@@ -47,73 +54,97 @@ These panels preserve the forecasts available for this post. Colors identify DA 
 
 ### 1. Choctawhatchee River near Newton
 
-![Routed 18-hour DA and open-loop streamflow forecasts for USGS 02361000, Choctawhatchee River near Newton](pics/aliais/02361000_a.jpg)
+<p align="center">
+  <img src="/blog/pics/aliais/02361000_a.jpg" alt="Routed 18-hour DA and open-loop streamflow forecasts for USGS 02361000, Choctawhatchee River near Newton" style="width: 100%; max-width: 1100px; height: auto;" />
+</p>
 
 *[USGS 02361000](https://waterdata.usgs.gov/monitoring-location/USGS-02361000/) · Choctawhatchee River near Newton.*
 
 ### 2. Blackwater River near Bradley
 
-![Routed 18-hour DA and open-loop streamflow forecasts for USGS 02369800, Blackwater River near Bradley](pics/aliais/02369800_a.jpg)
+<p align="center">
+  <img src="/blog/pics/aliais/02369800_a.jpg" alt="Routed 18-hour DA and open-loop streamflow forecasts for USGS 02369800, Blackwater River near Bradley" style="width: 100%; max-width: 1100px; height: auto;" />
+</p>
 
 *[USGS 02369800](https://waterdata.usgs.gov/monitoring-location/USGS-02369800/) · Blackwater River near Bradley.*
 
 ### 3. Conecuh River at Brantley
 
-![Routed 18-hour DA and open-loop streamflow forecasts for USGS 02371500, Conecuh River at Brantley](pics/aliais/02371500_a.jpg)
+<p align="center">
+  <img src="/blog/pics/aliais/02371500_a.jpg" alt="Routed 18-hour DA and open-loop streamflow forecasts for USGS 02371500, Conecuh River at Brantley" style="width: 100%; max-width: 1100px; height: auto;" />
+</p>
 
 *[USGS 02371500](https://waterdata.usgs.gov/monitoring-location/USGS-02371500/) · Conecuh River at Brantley.*
 
 ### 4. Patsaliga Creek near Brantley
 
-![Routed 18-hour DA and open-loop streamflow forecasts for USGS 02372250, Patsaliga Creek near Brantley](pics/aliais/02372250_a.jpg)
+<p align="center">
+  <img src="/blog/pics/aliais/02372250_a.jpg" alt="Routed 18-hour DA and open-loop streamflow forecasts for USGS 02372250, Patsaliga Creek near Brantley" style="width: 100%; max-width: 1100px; height: auto;" />
+</p>
 
 *[USGS 02372250](https://waterdata.usgs.gov/monitoring-location/USGS-02372250/) · Patsaliga Creek near Brantley.*
 
 ### 5. Murder Creek near Evergreen
 
-![Routed 18-hour DA and open-loop streamflow forecasts for USGS 02374500, Murder Creek near Evergreen](pics/aliais/02374500_a.jpg)
+<p align="center">
+  <img src="/blog/pics/aliais/02374500_a.jpg" alt="Routed 18-hour DA and open-loop streamflow forecasts for USGS 02374500, Murder Creek near Evergreen" style="width: 100%; max-width: 1100px; height: auto;" />
+</p>
 
 *[USGS 02374500](https://waterdata.usgs.gov/monitoring-location/USGS-02374500/) · Murder Creek near Evergreen.*
 
 ### 6. Hatchet Creek below Rockford
 
-![Routed 18-hour DA and open-loop streamflow forecasts for USGS 02408540, Hatchet Creek below Rockford](pics/aliais/02408540_a.jpg)
+<p align="center">
+  <img src="/blog/pics/aliais/02408540_a.jpg" alt="Routed 18-hour DA and open-loop streamflow forecasts for USGS 02408540, Hatchet Creek below Rockford" style="width: 100%; max-width: 1100px; height: auto;" />
+</p>
 
 *[USGS 02408540](https://waterdata.usgs.gov/monitoring-location/USGS-02408540/) · Hatchet Creek below Rockford.*
 
 ### 7. Mulberry Creek at Jones
 
-![Routed 18-hour DA and open-loop streamflow forecasts for USGS 02422500, Mulberry Creek at Jones](pics/aliais/02422500_a.jpg)
+<p align="center">
+  <img src="/blog/pics/aliais/02422500_a.jpg" alt="Routed 18-hour DA and open-loop streamflow forecasts for USGS 02422500, Mulberry Creek at Jones" style="width: 100%; max-width: 1100px; height: auto;" />
+</p>
 
 *[USGS 02422500](https://waterdata.usgs.gov/monitoring-location/USGS-02422500/) · Mulberry Creek at Jones.*
 
 ### 8. Sipsey Fork near Grayson
 
-![Routed 18-hour DA and open-loop streamflow forecasts for USGS 02450250, Sipsey Fork near Grayson](pics/aliais/02450250_a.jpg)
+<p align="center">
+  <img src="/blog/pics/aliais/02450250_a.jpg" alt="Routed 18-hour DA and open-loop streamflow forecasts for USGS 02450250, Sipsey Fork near Grayson" style="width: 100%; max-width: 1100px; height: auto;" />
+</p>
 
 *[USGS 02450250](https://waterdata.usgs.gov/monitoring-location/USGS-02450250/) · Sipsey Fork near Grayson.*
 
 ### 9. North River near Samantha
 
-![Routed 18-hour DA and open-loop streamflow forecasts for USGS 02464000, North River near Samantha](pics/aliais/02464000_a.jpg)
+<p align="center">
+  <img src="/blog/pics/aliais/02464000_a.jpg" alt="Routed 18-hour DA and open-loop streamflow forecasts for USGS 02464000, North River near Samantha" style="width: 100%; max-width: 1100px; height: auto;" />
+</p>
 
 *[USGS 02464000](https://waterdata.usgs.gov/monitoring-location/USGS-02464000/) · North River near Samantha.*
 
 ### 10. Elliotts Creek at Moundville
 
-![Routed 18-hour DA and open-loop streamflow forecasts for USGS 02465493, Elliotts Creek at Moundville](pics/aliais/02465493_a.jpg)
+<p align="center">
+  <img src="/blog/pics/aliais/02465493_a.jpg" alt="Routed 18-hour DA and open-loop streamflow forecasts for USGS 02465493, Elliotts Creek at Moundville" style="width: 100%; max-width: 1100px; height: auto;" />
+</p>
 
 *[USGS 02465493](https://waterdata.usgs.gov/monitoring-location/USGS-02465493/) · Elliotts Creek at Moundville.*
 
 ### 11. Satilpa Creek near Coffeeville
 
-![Routed 18-hour DA and open-loop streamflow forecasts for USGS 02469800, Satilpa Creek near Coffeeville](pics/aliais/02469800_a.jpg)
+<p align="center">
+  <img src="/blog/pics/aliais/02469800_a.jpg" alt="Routed 18-hour DA and open-loop streamflow forecasts for USGS 02469800, Satilpa Creek near Coffeeville" style="width: 100%; max-width: 1100px; height: auto;" />
+</p>
 
 *[USGS 02469800](https://waterdata.usgs.gov/monitoring-location/USGS-02469800/) · Satilpa Creek near Coffeeville.*
 
 ### 12. Paint Rock River near Woodville
 
-![Routed 18-hour DA and open-loop streamflow forecasts for USGS 03574500, Paint Rock River near Woodville](pics/aliais/03574500_a.jpg)
+<p align="center">
+  <img src="/blog/pics/aliais/03574500_a.jpg" alt="Routed 18-hour DA and open-loop streamflow forecasts for USGS 03574500, Paint Rock River near Woodville" style="width: 100%; max-width: 1100px; height: auto;" />
+</p>
 
 *[USGS 03574500](https://waterdata.usgs.gov/monitoring-location/USGS-03574500/) · Paint Rock River near Woodville.*
 
