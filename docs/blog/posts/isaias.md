@@ -11,9 +11,7 @@ slug: isaias-streamflow-forecast
 
 # Forecasting Alabama streamflow ahead of Hurricane Isaias
 
-As Hurricane Isaias approaches the northern Gulf Coast, we are issuing streamflow forecasts for 12 Alabama watersheds to test our kriging-based data assimilation method during a real-world event. **We are sharing these forecasts before the anticipated flood response, while the outcome is still unknown.** The question is whether updating a hydrologic model with information from the gauge network helps it predict what comes next.
-
-Our earlier work examined Hurricane Helene retrospectively (Battula et al., 2026a, 2026c, 2026d). This time, we are recording predictions ahead of the event. Once the storm and river response have passed, we will compare these forecasts with USGS observations and report the results in a follow-up blog.
+As Hurricane Isaias approaches the northern Gulf Coast, we are issuing streamflow forecasts for 12 Alabama watersheds to test our kriging-based data assimilation method during a real-world event. We are sharing these forecasts before the anticipated flood response, while the outcome is still unknown. Once the storm and river response have passed, we will compare these forecasts with USGS observations and report the results in a follow-up blog. Our earlier work examined Hurricane Helene retrospectively (Battula et al., 2026a, 2026c, 2026d). This time, we are recording predictions ahead of the event.
 
 <!-- more -->
 
