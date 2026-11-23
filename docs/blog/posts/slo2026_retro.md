@@ -22,7 +22,7 @@ I was relaxing on the couch when the flood warning reached my phone at 10:43 PM.
 
 At that time, the closest official NOAA forecast was for Paso Robles, 30 miles away, issued by the NOAA Los Angeles/Oxnard office. However, when I looked at the forecast, this is what it showed:
 <p align="center">
-  <img src="/blog/posts/pics/slo2026_retro/paso_robles.jpg" alt="NOAA streamflow forecast for Salinas River at Paso Robles" style="width: 100%; max-width: 1100px; height: auto;" />
+  <img src="/blog/pics/slo2026_retro/paso_robles.jpg" alt="NOAA streamflow forecast for Salinas River at Paso Robles" style="width: 100%; max-width: 1100px; height: auto;" />
 </p>
 The observed flow was rising much faster than forecast! The peak was off by about 3-4 hours, and the forecast looks either very outdated (issued 7–10 hours earlier) or not reflecting the natural flow.
 
@@ -97,5 +97,5 @@ Also, I briefly compared the flooded areas reported in the [Tribune article](htt
 If you have your own flood experience, I'd love to hear your story at DeepGroundwater (or for this season, should we call it DeepFloodwater) ... :)
 
 <p align="center">
-  <img src="/blog/posts/pics/slo2026_retro/high_watermark.jpg" alt="High water mark left in a park" style="width: 100%; max-width: 1100px; height: auto;" />
+  <img src="/blog/pics/slo2026_retro/high_watermark.jpg" alt="High water mark left in a park" style="width: 100%; max-width: 1100px; height: auto;" />
 </p>
