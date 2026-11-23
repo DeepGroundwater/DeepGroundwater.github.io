@@ -37,7 +37,7 @@ It was buried deep, and I couldn't find it quickly on my phone during the flood.
 ## 2. Looking back at the NWM forecasts (as a hydrologist)
 In addition to real-time forecasts, NOAA keeps what's called a **hindcast**: an archived record of what flow was predicted at the time each forecast was made. This lets you look back and evaluate how well the NWM forecasted an event. The NWM output is stored in the NOAA Open Data AWS bucket, which you can access through the CIROH Data Access Hub: https://hub.ciroh.org/docs/products/data-management/dataaccess/. Our editorial board member Tadd Bindas has previously written [an article on how to access these datasets](https://deepgroundwater.com/blog/coding-blog-how-to-access-nwm-forcings-using-virtualizarr/).
 
-I pulled short-range (18-hour) forecasts for a several river reaches near SLO and one at Paso Robles, from four initialization times on Nov 18:
+I pulled short-range (18-hour) forecasts for a several river reaches near SLO and one at Paso Robles, from four initialization times on Nov 18 ([scripts](https://github.com/DeepGroundwater/slo2026)):
 - **6 AM PST**: the morning of the flood
 - **12 PM and 6 PM PST**: several hours before the flood
 - **10 PM PST**: right around the start of the flood
