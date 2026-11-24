@@ -10,7 +10,7 @@ slug: slo-streamflow-forecast-retrospective
 Around midnight on Nov 18, City of San Luis Obispo (SLO) was hit by its first major atmospheric river storm of the season. Houses and streets flooded, and a sinkhole appeared. According to [CalCoastNews](https://calcoastnews.com/2026/11/see-how-much-rainfall-fell-from-storm-that-soaked-san-luis-obispo-county/), 3-day rain totals reached 3.33 in at San Luis Obispo and 5.71 in at Rocky Butte near San Simeon. This came on top of the 200-400% above-average precipitation in the preceding 90-days before Nov 14 ([NOAA Climate Prediction Center update on Nov 16, 2026](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf)). 
 
 <p align="center">
-  <img src="https://github.com/DeepGroundwater/slo2026/blob/main/data/gridmet_precip_48h_slo_20261118.png" alt="gridMET precipitation for San Luis Obispo County over the 48-hour period of Nov 17–19" style="width: 100%; max-width: 1100px; height: auto;" />
+  <img src="https://github.com/DeepGroundwater/slo2026/blob/main/data/gridmet_precip_48h_slo_20261118.png?raw=true" alt="gridMET precipitation for San Luis Obispo County over the 48-hour period of Nov 17–19" style="width: 100%; max-width: 1100px; height: auto;" />
 </p>
 
 In this post, I retrospectively, and anecdotally, look back at the flood as a SLO resident and a hydrologist. With a retrospective analysis of the National Water Model (NWM) forecasts, I'll share what I learned about flood preparedness.
@@ -45,12 +45,12 @@ I pulled short-range (18-hour) forecasts for a several river reaches near SLO an
 So let's look at what happened. Note that for the SLO reaches, the observed peak flow magnitude is unknown, because the gauges only measure stage. So the analysis here focuses on the timing of the peak.
 
 <p align="center">
-  <img src="https://github.com/DeepGroundwater/slo2026/blob/main/data/map.png" alt="Map of NWM forecasting points and stream gauges locations for San Luis Obispo county" style="width: 100%; max-width: 1100px; height: auto;" />
+  <img src="https://github.com/DeepGroundwater/slo2026/blob/main/data/map.png?raw=true" alt="Map of NWM forecasting points and stream gauges locations for San Luis Obispo county" style="width: 100%; max-width: 1100px; height: auto;" />
 </p>
 
 ### SLO Creek vs. Marsh St and Elks Ln stage
 <p align="center">
-  <img src="https://github.com/DeepGroundwater/slo2026/blob/main/data/nwm_short_range_slo_20261118_8193637.png" alt="Observed and forecasted streamflow for SLO creek at COMID 8193637 forecast point" style="width: 100%; max-width: 1100px; height: auto;"/>
+  <img src="https://github.com/DeepGroundwater/slo2026/blob/main/data/nwm_short_range_slo_20261118_8193637.png?raw=true" alt="Observed and forecasted streamflow for SLO creek at COMID 8193637 forecast point" style="width: 100%; max-width: 1100px; height: auto;"/>
 </p>
 
 - The forecast made at 6 AM did not predict a large peak.
@@ -59,14 +59,14 @@ So let's look at what happened. Note that for the SLO reaches, the observed peak
 
 ### Stenner Creek vs. Nipomo St stage
 <p align="center">
-  <img src="https://github.com/DeepGroundwater/slo2026/blob/main/data/nwm_short_range_slo_20261118_8192679.png" alt="Observed and forecasted streamflow for Stenner creek at COMID 8192679 forecast point" style="width: 100%; max-width: 1100px; height: auto;" />
+  <img src="https://github.com/DeepGroundwater/slo2026/blob/main/data/nwm_short_range_slo_20261118_8192679.png?raw=true" alt="Observed and forecasted streamflow for Stenner creek at COMID 8192679 forecast point" style="width: 100%; max-width: 1100px; height: auto;" />
 </p>
 
 - Similar pattern is found. The forecast peak was at 10–11 PM, and the observed peak was at 11PM–12AM. The runs initialized at 12 PM and 6 PM (5–10 hours prior) predicted an unusually high flow. 
 
 ### Old Garden Creek (no gauge)
 <p align="center">
-  <img src="https://github.com/DeepGroundwater/slo2026/blob/main/data/nwm_short_range_slo_20261118_8192681.png" alt="Observed and forecasted streamflow for Old garden creek at COMID 8192681 forecast point" style="width: 100%; max-width: 1100px; height: auto;" />
+  <img src="https://github.com/DeepGroundwater/slo2026/blob/main/data/nwm_short_range_slo_20261118_8192681.png?raw=true" alt="Observed and forecasted streamflow for Old garden creek at COMID 8192681 forecast point" style="width: 100%; max-width: 1100px; height: auto;" />
 </p>
 
 - This area flooded as well. Successful example of NWM prediction for a small, ungauged creek! 
@@ -74,7 +74,7 @@ So let's look at what happened. Note that for the SLO reaches, the observed peak
 
 ### Salinas River at Paso Robles vs. USGS 11147500 (official NOAA forecast point)
 <p align="center">
-  <img src="https://github.com/DeepGroundwater/slo2026/blob/main/data/nwm_short_range_slo_20261118_8212843.png" alt="Observed and forecasted streamflow for Salinas River at Paso Robles" style="width: 100%; max-width: 1100px; height: auto;" />
+  <img src="https://github.com/DeepGroundwater/slo2026/blob/main/data/nwm_short_range_slo_20261118_8212843.png?raw=true" alt="Observed and forecasted streamflow for Salinas River at Paso Robles" style="width: 100%; max-width: 1100px; height: auto;" />
 </p>
 
 - The forecasts initially predicted large flow peaks, but as observed flow data came in and get assimilated, the later runs (6 PM and 10 PM) drifted to match the observations.
